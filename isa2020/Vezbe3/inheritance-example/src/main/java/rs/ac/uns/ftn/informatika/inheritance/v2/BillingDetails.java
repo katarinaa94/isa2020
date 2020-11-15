@@ -1,4 +1,4 @@
-package rs.ac.uns.ftn.informatika.ihneritance.v2;
+package rs.ac.uns.ftn.informatika.inheritance.v2;
 
 import static javax.persistence.DiscriminatorType.STRING;
 import static javax.persistence.InheritanceType.SINGLE_TABLE;
@@ -7,8 +7,10 @@ import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 /*
@@ -38,7 +40,8 @@ import javax.persistence.Table;
 public abstract class BillingDetails {
 
 	@Id
-	@GeneratedValue
+	@SequenceGenerator(name = "mySeqGenV2", sequenceName = "mySeqV2", initialValue = 1, allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "mySeqGenV2")
 	@Column(name="id", unique=true, nullable=false)
 	private Integer id;
 

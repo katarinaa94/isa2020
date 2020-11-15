@@ -1,4 +1,4 @@
-package rs.ac.uns.ftn.informatika.ihneritance.v2;
+package rs.ac.uns.ftn.informatika.inheritance.v2;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;
@@ -10,13 +10,13 @@ import javax.persistence.Entity;
 @DiscriminatorValue("CC")
 public class CreditCard extends BillingDetails {
 
-	@Column(name="cc_number", unique=false, nullable=false)
+	@Column(name="cc_number", unique=false, nullable=true)
 	private String number;
 
-	@Column(name="exp_month", unique=false, nullable=false)
+	@Column(name="exp_month", unique=false, nullable=true)
 	private String expMonth;
 
-	@Column(name="exp_year", unique=false, nullable=false)
+	@Column(name="exp_year", unique=false, nullable=true)
 	private String expYear;
 
 	public CreditCard() {

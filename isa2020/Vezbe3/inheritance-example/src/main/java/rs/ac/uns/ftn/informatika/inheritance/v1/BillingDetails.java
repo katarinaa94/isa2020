@@ -1,4 +1,4 @@
-package rs.ac.uns.ftn.informatika.ihneritance.v1;
+package rs.ac.uns.ftn.informatika.inheritance.v1;
 
 import static javax.persistence.InheritanceType.TABLE_PER_CLASS;
 
@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
+import javax.persistence.SequenceGenerator;
 
 /*
  * Prednosti strategije nasledjivanja gde se koristi po jedna tabela po konkretnoj klasi:
@@ -29,7 +30,8 @@ import javax.persistence.Inheritance;
 public abstract class BillingDetails {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.TABLE)
+	@SequenceGenerator(name = "mySeqGenV1", sequenceName = "mySeqV1", initialValue = 1, allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "mySeqGenV1")
 	private Integer id;
 
 	@Column(name="owner", unique=false, nullable=false)

@@ -1,23 +1,33 @@
-package rs.ac.uns.ftn.informatika.ihneritance.v3;
+package rs.ac.uns.ftn.informatika.inheritance.v1;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+// ovde je dovoljno navesti da je klasa entity, sve se nasledjuje 
+// iz BillingDetails
 @Entity
-@Table(name="v3_creditcard")
+@Table(name="v1_creditcard")
 public class CreditCard extends BillingDetails {
 
-	@Column(name="number", unique=false, nullable=false)
+	@Column(name="number", unique=false, nullable=true)
 	private String number;
 
-	@Column(name="exp_month", unique=false, nullable=false)
+	@Column(name="exp_month", unique=false, nullable=true)
 	private String expMonth;
 
-	@Column(name="exp_year", unique=false, nullable=false)
+	@Column(name="exp_year", unique=false, nullable=true)
 	private String expYear;
 
 	public CreditCard() {
+	}
+
+
+	public CreditCard(String number, String expMonth, String expYear) {
+		super();
+		this.number = number;
+		this.expMonth = expMonth;
+		this.expYear = expYear;
 	}
 
 	public String getNumber() {

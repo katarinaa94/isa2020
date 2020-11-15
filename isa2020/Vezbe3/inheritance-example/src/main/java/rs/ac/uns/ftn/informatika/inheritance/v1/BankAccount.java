@@ -1,26 +1,35 @@
-package rs.ac.uns.ftn.informatika.ihneritance.v2;
+package rs.ac.uns.ftn.informatika.inheritance.v1;
 
 import javax.persistence.Column;
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
+// ovde je dovoljno navesti da je klasa entity, sve se nasledjuje 
+// iz BillingDetails
 @Entity
-//ovom anotacijom se navodi vrednost diskriminatorske kolone koja vazi za 
-//objekte ove klase
-@DiscriminatorValue("BA")
+@Table(name="v1_bankaccount")
 public class BankAccount extends BillingDetails {
 
-	@Column(name="ba_number", unique=false, nullable=false)
+	@Column(name="number", unique=false, nullable=true)
 	private String number;
 
-	@Column(name="bank_name", unique=false, nullable=false)
+	@Column(name="bank_name", unique=false, nullable=true)
 	private String bankName;
 
-	@Column(name="swift", unique=false, nullable=false)
+	@Column(name="swift", unique=false, nullable=true)
 	private String swift;
 
 	public BankAccount() {
 	}
+
+	public BankAccount(String number, String bankName, String swift) {
+		super();
+		this.number = number;
+		this.bankName = bankName;
+		this.swift = swift;
+	}
+
+
 
 	public String getNumber() {
 		return number;

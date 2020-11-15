@@ -1,12 +1,14 @@
-package rs.ac.uns.ftn.informatika.ihneritance.v3;
+package rs.ac.uns.ftn.informatika.inheritance.v3;
 
 import static javax.persistence.InheritanceType.JOINED;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 /*
@@ -25,7 +27,8 @@ import javax.persistence.Table;
 public class BillingDetails {
 
 	@Id
-	@GeneratedValue
+	@SequenceGenerator(name = "mySeqGenV3", sequenceName = "mySeqV3", initialValue = 1, allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "mySeqGenV3")
 	@Column(name="id", unique=true, nullable=false)
 	private Integer id;
 

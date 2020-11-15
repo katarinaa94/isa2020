@@ -1,12 +1,12 @@
-package rs.ac.uns.ftn.informatika.ihneritance;
+package rs.ac.uns.ftn.informatika.jdbc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InheritanceExampleApplication {
-	
+public class JdbcExampleApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(InheritanceExampleApplication.class, args);
+		SpringApplication.run(JdbcExampleApplication.class, args);
 	}
 }

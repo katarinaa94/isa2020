@@ -1,4 +1,4 @@
-package rs.ac.uns.ftn.informatika.ihneritance.v3;
+package rs.ac.uns.ftn.informatika.inheritance.v3;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,13 +8,13 @@ import javax.persistence.Table;
 @Table(name="v3_bankaccount")
 public class BankAccount extends BillingDetails {
 
-	@Column(name="number", unique=false, nullable=false)
+	@Column(name="number", unique=false, nullable=true)
 	private String number;
 
-	@Column(name="bank_name", unique=false, nullable=false)
+	@Column(name="bank_name", unique=false, nullable=true)
 	private String bankName;
 
-	@Column(name="swift", unique=false, nullable=false)
+	@Column(name="swift", unique=false, nullable=true)
 	private String swift;
 
 	public BankAccount() {

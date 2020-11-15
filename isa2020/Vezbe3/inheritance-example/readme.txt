@@ -1,5 +1,5 @@
 FTN / Katedra za informatiku
-Internet softverske arhitekture / 2019.
+Internet softverske arhitekture / 2020.
 =================================
 
 1. Opis primera
