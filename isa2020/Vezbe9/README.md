@@ -21,7 +21,7 @@ Podrška za pisanje testova u Spring aplikacijama se može uključiti dodavanjem
     </dependency>
 ```
 
-Prezentacija se nalazi na [linku](https://github.com/katarinaa94/isa/blob/master/Vezbe9/Testiranje.pdf).
+Prezentacija se nalazi na [linku](https://github.com/katarinaa94/isa2020/blob/master/isa2020/Vezbe9/Testiranje.pdf).
 
 ## Application deployment
 
