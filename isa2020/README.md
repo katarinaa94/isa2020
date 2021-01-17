@@ -11,3 +11,10 @@ Raspodela zadataka za timove koji imaju manje od četiri člana:
   <li>Tim od 2 člana stari studenti RA – kao tim od 3 člana nove generacije</li>
 <li>Jednočlani tim stari student RA – radi po specifikaciji studente 1 i 2 + funkcionalnosti administratora sistema studenta 4 + mokuju ostalo što im treba od funkcionalnosti studenata 3 i 4</li>
  </ul>
+ 
+ Važni datumi:
+ <ul>
+  <li>12.02.2021. 23:59:59 - rok za završetak projekta</li>
+	<li>19.02.2021. - rezultati pregleda projekata i objavljivanje rasporeda dolazaka na upis ocena</li>
+	<li>20.02.2021. - upis ocena</li>
+ <ul>
