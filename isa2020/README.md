@@ -18,3 +18,9 @@ Raspodela zadataka za timove koji imaju manje od četiri člana:
 	<li>19.02.2021. - rezultati pregleda projekata i objavljivanje rasporeda dolazaka na upis ocena</li>
 	<li>20.02.2021. - upis ocena</li>
  <ul>
+
+Podsetnik za studente:
+Svi timovi koji imaju privatne repozitorijume trebaju da provere da li su dodali svoje asistente na iste (stojkovm, katarinaa94, ivana-k). Bez pristupa kodu timovi neće steći uslov da polažu predmet.
+Timove označene žutom na spisku timova molimo da ponovo pošalju zahteve.
+Takođe podsećamo timove da dodaju README.md u kojem je opisano šta je sve od alata potrebno instalirati i kako pokrenuti projekat.
+Dodatna molba je da ako heširate lozinke u aplikaciji, u komentaru skripte za popunu baze dodate kao komentar koja šifra odgovara tom hešu.
