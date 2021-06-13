@@ -31,3 +31,10 @@ U zavisnosti od broja prijavljenih studenata, tačna uputstva za predloge i upis
 Ocene se skaliraju za jednu. Maksimalna ocena je 9.
 
 
+<br>
+<h2>Termini odbrane - jun </h2>
+Odbrana projekata će se održati u sredu 16.6.2021. u NTP 324.
+Na [linku](https://github.com/katarinaa94/isa2020/blob/master/isa2020/ISA%20RA%20II%20jun.pdf) su dati predlozi ocena koje studenti brane. Prisustvo je obavezno.
+
+
+
