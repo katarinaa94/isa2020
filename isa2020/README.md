@@ -37,4 +37,23 @@ Odbrana projekata će se održati u sredu 16.6.2021. u NTP 324.
 Na [linku](https://github.com/katarinaa94/isa2020/blob/master/isa2020/ISA%20RA%20II%20jun.pdf) su dati predlozi ocena koje studenti brane. Prisustvo je obavezno.
 
 
+<br>
+<h2> Odbrana u septembru </h2>
 
+Obaveštavaju se studenti da će se održati još jedna odbrana projekta u septembru.
+
+Studenti se prijavljuju do 3.9.2021. u 23:59:59 popunjavanjem forme na linku:
+RA - https://forms.gle/GQCFXyz9JZnSVRdz6
+II - https://forms.gle/uCBpjKDkHHtQXAAp7
+
+Repozitorijumi moraju biti javni na dan roka za završetak i komitovi su dozvoljeni do 3.9.2021. u 23:59:59. Naknadni komitovi neće biti uvaženi.
+
+U zavisnosti od broja prijavljenih studenata, tačna uputstva za predloge i upis ocena će biti objavljena naknadno.
+
+Ocene se skaliraju za jednu. Maksimalna ocena je 8.
+
+Studenti ne mogu da menjaju timove i moraju da rade funkcionalnosti za onog studenta za kojeg su se pri inicijalnoj prijavi ili naknadnom odobrenju opredelili.
+
+Ukoliko studenti ne žele da rade u timu koji su inicijalno prijavili pravila su sledeća:
+
+Mogu raditi iskljčivo u novom jednočlanom timu i rade po specifikaciji studente 1 i 2 + funkcionalnosti administratora sistema studenta 4 + mokuju ostalo što im treba od funkcionalnosti studenata 3 i 4.
